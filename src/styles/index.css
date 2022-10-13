@@ -1,0 +1,56 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  --bgClr: #d7d4d41a;
+  --fontClr: #000000;
+  --unactiveClr: #56565680;
+  --activeClr: #191919;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+}
+
+* {
+  
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bgClr);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  background: var(--bgClr);
+
+  padding: 0.75em;
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--unactiveClr);
+}
+
+.active-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--activeClr);
+}
+
+.my-photo {
+  margin: 1em;
+  width: 250px;
+  border-radius: 1em;
+}
